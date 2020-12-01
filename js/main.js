@@ -15,14 +15,38 @@ function clicked() {
 		
 		} else {
 		
-			window.alert("Incorrect username or password!");
+			window.alert("Usuario o clave incorrecta!, Vuelva a intentar");
+		
+		}
+
+	
+	} 
+
+	var coruser1 = "Caldas-Catastro";
+	var corpass1 = "011220";
+
+	if(user.value == coruser1) {
+	
+		if(pass.value == corpass1) {
+		
+			window.alert("You are logged in as " + user.value);
+			window.open("https://andres-castiblanco.github.io/Caldas-Asamblea/","_self");
+		
+		} else {
+		
+			window.alert("Usuario o clave incorrecta!, Vuelva a intentar!");
 		
 		}
 	
-	} else {
-	
+	} 
+
+
+
+	else {
+		
 			window.alert("Incorrect username or password!");
-	
-	}
+		
+		}
 
 }
+
