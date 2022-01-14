@@ -22,7 +22,7 @@ function clicked() {
 	
 	} 
 
-	var coruser1 = "Caldas-Catastro";
+	var coruser1 = "FExE";
 	var corpass1 = "011220";
 
 	if(user.value == coruser1) {
@@ -30,7 +30,7 @@ function clicked() {
 		if(pass.value == corpass1) {
 		
 			window.alert("You are logged in as " + user.value);
-			window.open("https://andres-castiblanco.github.io/Caldas-Asamblea/","_self");
+			window.open("https://andres-castiblanco.github.io/FExE/","_self");
 		
 		} else {
 		
