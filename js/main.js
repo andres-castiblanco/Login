@@ -10,7 +10,7 @@ function clicked() {
 	
 		if(pass.value == corpass) {
 		
-			window.alert("You are logged in as " + user.value);
+			/*window.alert("You are logged in as " + user.value);*/
 			window.open("https://andres-castiblanco.github.io/Quindio/","_self");
 		
 		} else {
@@ -29,7 +29,7 @@ function clicked() {
 	
 		if(pass.value == corpass1) {
 		
-			window.alert("You are logged in as " + user.value);
+			/*window.alert("You are logged in as " + user.value);*/
 			window.open("https://andres-castiblanco.github.io/FExE/","_self");
 		
 		} else {
@@ -40,6 +40,23 @@ function clicked() {
 	
 	} 
 
+var coruser2 = "CV";
+	var corpass2 = "012345";
+
+	if(user.value == coruser2) {
+	
+		if(pass.value == corpass2) {
+		
+			/*window.alert("You are logged in as " + user.value);*/
+			window.open("https://andres-castiblanco.github.io/CV/","_self");
+		
+		} else {
+		
+			window.alert("Usuario o clave incorrecta!, Vuelva a intentar!");
+		
+		}
+	
+	} 
 
 
 	else {
